@@ -1,0 +1,83 @@
+/*Globales*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+h1 {
+    font-size: 6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 7rem 0 0 3rem;
+    margin: 0;
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0 0 0 3rem;
+    margin: 0;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+}
+span {
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+td {
+    width: 100%;
+}
+/* Header */
+header {
+    background-image: url(../imgs/header-fnd-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+/* Productos */
+.productos {
+    margin: 0 auto;
+    max-width: 70rem;
+}
+.producto-1, .producto-2, .producto-3 {
+    padding: 4rem;
+}
+.img {
+    width: 30rem;
+}
+.img-producto {
+    width: 30rem;
+}
+.text-producto {
+    padding: 0 0 0 3rem;
+}
+/* Footer */
+.foot {
+    background-color: #2471A3;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.text-foot {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0 0 0.4rem 0;
+}
+.text-foot-city {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
